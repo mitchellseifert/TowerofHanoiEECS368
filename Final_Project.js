@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let stack1Midpoint = 195;
   let stack2Midpoint = 600;
   let stack3Midpoint = 1005;
-  let holdArrayMidpoint = 900;
+  let holdArrayMidpoint = 950;
 
   var userInput = window.prompt("Enter amount of discs (1-7): ");
   if(userInput < 1 || userInput > 7)
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }else{
       for(let i = 0; i < holdArray.length; i++){
-        drawBlock(holdArray[i], (-3), holdArrayMidpoint);
+        drawBlock(holdArray[i], (-2), holdArrayMidpoint);
       }
     }
   }
