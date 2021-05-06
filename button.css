@@ -1,0 +1,38 @@
+#stackOne {
+  color: white;
+  font-family: impact;
+  position: absolute;
+  left: 130px;
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+#stackTwo {
+  color: white;
+  font-family: impact;
+  position: absolute;
+  left: 525px;
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+#stackThree {
+  color: white;
+  font-family: impact;
+  position: absolute;
+  left: 945px;
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
